@@ -1,0 +1,179 @@
+================================================================================
+STORY TRACKER - Real-Time Event Streaming System
+================================================================================
+Last Updated: [Date will be updated as we progress]
+
+Legend: 
+  [ ] Not Started
+  [~] In Progress
+  [X] Completed
+  [-] Blocked/On Hold
+
+================================================================================
+PHASE 1: FOUNDATION & INFRASTRUCTURE SETUP
+================================================================================
+
+[ ] Story 1.1: Project Setup
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 1.2: Kafka Topic Configuration
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+================================================================================
+PHASE 2: EVENT PRODUCER SERVICE
+================================================================================
+
+[ ] Story 2.1: Domain Models
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 2.2: Ride Request Producer
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 2.3: Driver Location Producer
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 2.4: Ride Completion Producer
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+================================================================================
+PHASE 3: STREAM PROCESSOR SERVICE
+================================================================================
+
+[ ] Story 3.1: Basic Consumer Setup
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 3.2: Ride Matching Logic
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 3.3: Real-time Metrics Processing
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 3.4: Surge Pricing Calculator
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+================================================================================
+PHASE 4: ANALYTICS DASHBOARD
+================================================================================
+
+[ ] Story 4.1: Metrics REST API
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 4.2: Simple Web Dashboard
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 4.3: Historical Data API
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+================================================================================
+PHASE 5: MONITORING & OBSERVABILITY
+================================================================================
+
+[ ] Story 5.1: Health Checks & Metrics
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 5.2: Logging & Tracing
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+================================================================================
+PHASE 6: ENHANCEMENTS (OPTIONAL)
+================================================================================
+
+[ ] Story 6.1: Data Persistence
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+[ ] Story 6.2: Advanced Features
+    Status: Not Started
+    Started: 
+    Completed: 
+    Notes: 
+
+================================================================================
+PROGRESS SUMMARY
+================================================================================
+
+Total Stories: 18
+Completed: 0
+In Progress: 0
+Not Started: 18
+Blocked: 0
+
+Phase 1: 0/2 completed
+Phase 2: 0/4 completed
+Phase 3: 0/4 completed
+Phase 4: 0/3 completed
+Phase 5: 0/2 completed
+Phase 6: 0/2 completed
+
+Overall Progress: 0%
+
+================================================================================
+CURRENT SPRINT
+================================================================================
+
+Sprint Goal: 
+Stories in Sprint: 
+  - 
+
+================================================================================
+BLOCKERS & ISSUES
+================================================================================
+
+None
+
+================================================================================
+NOTES & DECISIONS
+================================================================================
+
+- Project uses Java 21 and Spring Boot 3.x
+- Kafka will be run via Docker Compose
+- 
+
+================================================================================
