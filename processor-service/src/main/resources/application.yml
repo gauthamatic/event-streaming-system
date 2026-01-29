@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: processor-service
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: processor-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+    streams:
+      application-id: ride-processor
+      properties:
+        default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+        default.value.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+
+server:
+  port: 8082

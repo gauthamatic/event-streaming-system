@@ -1,0 +1,6 @@
+rootProject.name = 'event-streaming-system'
+
+include 'common'
+include 'producer-service'
+include 'processor-service'
+include 'analytics-service'
