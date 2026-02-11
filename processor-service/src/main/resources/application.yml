@@ -2,11 +2,13 @@ spring:
   application:
     name: processor-service
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
     consumer:
       group-id: processor-group
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      auto-offset-reset: earliest
+      enable-auto-commit: false
       properties:
         spring.json.trusted.packages: "*"
     streams:
@@ -14,6 +16,12 @@ spring:
       properties:
         default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
         default.value.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+        num.stream.threads: 2
 
 server:
-  port: 8082
+  port: ${SERVER_PORT:8082}
+
+logging:
+  level:
+    root: INFO
+    com.ridesharing: DEBUG

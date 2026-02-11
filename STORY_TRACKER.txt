@@ -19,11 +19,11 @@ PHASE 1: FOUNDATION & INFRASTRUCTURE SETUP
     Completed: Today
     Notes: All services configured with Spring Boot 3.3.5, Java 17, Kafka dependencies. Build successful. 
 
-[ ] Story 1.2: Kafka Topic Configuration
-    Status: Not Started
-    Started: 
-    Completed: 
-    Notes: 
+[X] Story 1.2: Kafka Topic Configuration
+    Status: Completed
+    Started: Today
+    Completed: Today
+    Notes: Topics managed via Terraform IaC: ride-requests, driver-locations, ride-events, ride-completed (3 partitions, 1 replica each, with retention policies) 
 
 ================================================================================
 PHASE 2: EVENT PRODUCER SERVICE
@@ -140,27 +140,28 @@ PROGRESS SUMMARY
 ================================================================================
 
 Total Stories: 18
-Completed: 1
+Completed: 2
 In Progress: 0
-Not Started: 17
+Not Started: 16
 Blocked: 0
 
-Phase 1: 1/2 completed
+Phase 1: 2/2 completed
 Phase 2: 0/4 completed
 Phase 3: 0/4 completed
 Phase 4: 0/3 completed
 Phase 5: 0/2 completed
 Phase 6: 0/2 completed
 
-Overall Progress: 6%
+Overall Progress: 11%
 
 ================================================================================
 CURRENT SPRINT
 ================================================================================
 
-Sprint Goal: 
+Sprint Goal: Complete Phase 1 Foundation
 Stories in Sprint: 
-  - 
+  - Story 1.1: Project Setup [X]
+  - Story 1.2: Kafka Topic Configuration [X] 
 
 ================================================================================
 BLOCKERS & ISSUES

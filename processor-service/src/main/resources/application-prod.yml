@@ -1,0 +1,17 @@
+spring:
+  kafka:
+    consumer:
+      properties:
+        session.timeout.ms: 30000
+        max.poll.interval.ms: 300000
+        max.poll.records: 500
+    streams:
+      properties:
+        num.stream.threads: 4
+        replication.factor: 3
+        processing.guarantee: exactly_once_v2
+
+logging:
+  level:
+    root: WARN
+    com.ridesharing: INFO
